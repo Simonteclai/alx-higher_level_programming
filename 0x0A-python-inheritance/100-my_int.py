@@ -1,4 +1,4 @@
-#!/usr/bin/pthon3
+#!/usr/bin/python3
 """Contains a class `MyInt` that inherits from `int`"""
 
 
