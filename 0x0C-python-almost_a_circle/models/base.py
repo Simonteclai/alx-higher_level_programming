@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 """Module that contains class Base """
 import json
 import csv
@@ -9,7 +8,7 @@ class Base:
     """ Class Base """
     __nb_objects = 0
 
-    def __init__(self, id=None):
+    def __init__(self, id=None)
         """ Initializes instances """
         if id is not None:
             self.id = id
@@ -18,7 +17,8 @@ class Base:
             self.id = Base.__nb_objects
 
     @staticmethod
-    def to_json_string(list_dictionaries):
+    def to_json_string(list_dictioaries):
+
         """ List to JSON string """
         if list_dictionaries is None or list_dictionaries == "[]":
             return "[]"
